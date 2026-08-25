@@ -1,0 +1,19 @@
+{
+  "name": "s3-folder-check",
+  "version": "1.0.0",
+  "description": "Check whether a folder/prefix exists in an AWS S3 bucket, driven by folder IDs stored in MongoDB",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/checkSingleFolder.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.629.0",
+    "@aws-sdk/credential-providers": "^3.1096.0",
+    "axios": "^1.18.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.8.0",
+    "mongoose": "^9.8.1"
+  }
+}
