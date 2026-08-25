@@ -573,6 +573,7 @@ async function main() {
     console.log(`Exists in S3  : ${totalExists}`);
     console.log(`Missing in S3 : ${totalMissing}`);
     console.log(`Errors        : ${totalErrors}`);
+    console.log("=======================================");
   } catch (err) {
     console.error("Fatal Error:", err);
   } finally {
