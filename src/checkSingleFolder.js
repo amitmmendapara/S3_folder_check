@@ -8,6 +8,8 @@ async function main() {
   if (!folderId) {
     console.error("Usage: node src/checkSingleFolder.js <folderId>");
     process.exit(1);
+    console.error("Usage: node src/checkSingleFolder.js <folderId>");
+    console.error("Example: node src/checkSingleFolder.js 56B671CD-C6DC-4903-B047-166E342CDF1C");
   }
 
   try {
