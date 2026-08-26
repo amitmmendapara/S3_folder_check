@@ -461,7 +461,7 @@ async function processBatch(posts) {
   console.log("=======================================");
 
   if (results.missing.length === 0) {
-    console.log("🎉 No missing folders found in this batch.");
+    console.log("🎉 There are No missing folders found in this batch.");
   } else {
     results.missing.forEach((item, index) => {
       console.log(
