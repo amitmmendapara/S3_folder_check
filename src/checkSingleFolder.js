@@ -8,13 +8,7 @@ async function main() {
   if (!folderId) {
     console.error("Usage: node src/checkSingleFolder.js <folderId>");
     process.exit(1);
-<<<<<<< HEAD
     }
-=======
-   console.error("Usage: node src/checkSingleFolder.js <folderId>");
-    
-  }
->>>>>>> origin
 
   try {
     const result = await checkFolderExists(folderId);
